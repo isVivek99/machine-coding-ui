@@ -1,0 +1,30 @@
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.view-port {
+  height: 256px;
+  width: 256px;
+  overflow: hidden;
+}
+
+.right-btn {
+  right: -40%;
+  top: 50%;
+}
+.left-btn {
+  right: 100%;
+  top: 50%;
+}
+
+.m-auto {
+  margin: auto;
+}
