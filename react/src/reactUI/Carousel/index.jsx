@@ -15,8 +15,11 @@ const Index = () => {
     if (next && index < limit) {
       return setIndex((prev) => prev + 1);
     } else if (!next && index > 0) {
-      setIndex((prev) => prev - 1);
+      return setIndex((prev) => prev - 1);
+    } else if (next) {
+      setIndex(0);
     }
+    setIndex(images.length - 1);
   };
   return (
     <main className='flex flex-col relative'>
