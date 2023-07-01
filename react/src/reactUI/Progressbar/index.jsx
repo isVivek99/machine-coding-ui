@@ -35,7 +35,10 @@ const Index = () => {
       <div className='progressbar'>
         <div
           className='progressbar__main'
-          style={{ transform: `scaleX(${time * 0.1})` }}
+          // in future give an option to decide time for completion of
+          // the timer , use a range selector for this
+          // change the factor in the future
+          style={{ transform: `scaleX(${time * (1 / 10)})` }}
         ></div>
       </div>
       <div className='btns'>
