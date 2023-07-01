@@ -17,7 +17,7 @@ const Index = () => {
     } else if (!next && index > 0) {
       return setIndex((prev) => prev - 1);
     } else if (next) {
-      setIndex(0);
+      return setIndex(0);
     }
     setIndex(images.length - 1);
   };

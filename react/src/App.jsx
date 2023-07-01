@@ -5,6 +5,7 @@ import Timer from "./customHooks/Timer";
 import ApiCall from "./customHooks/ApiCall";
 import ComponentDidUpdate from "./customHooks/ComponentDidUpdate";
 import Carousel from "./reactUI/Carousel";
+import ProgressBar from "./reactUI/Progressbar";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Timer /> */}
       {/* <ApiCall /> */}
       {/* <ComponentDidUpdate /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <ProgressBar />
     </>
   );
 }

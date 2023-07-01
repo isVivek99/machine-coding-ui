@@ -1,0 +1,16 @@
+.btn {
+  margin: 1rem;
+}
+.progressbar {
+  width: 100%;
+  height: 1rem;
+  border: 1px solid #000;
+}
+
+.progressbar__main {
+  height: inherit;
+  background-color: aqua;
+  transition: all ease-in-out 1s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
