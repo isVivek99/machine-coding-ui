@@ -6,6 +6,9 @@ import ApiCall from "./customHooks/ApiCall";
 import ComponentDidUpdate from "./customHooks/ComponentDidUpdate";
 import Carousel from "./reactUI/Carousel";
 import ProgressBar from "./reactUI/Progressbar";
+import Shapes from "./reactUI/Shapes";
+import StarHover from "./reactUI/StarHover";
+import FileSystem from "./reactUI/FileSystem";
 
 function App() {
   return (
@@ -15,7 +18,11 @@ function App() {
       {/* <ApiCall /> */}
       {/* <ComponentDidUpdate /> */}
       {/* <Carousel /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
+      {/* <Shapes /> */}
+      {/* <Shapes /> */}
+      {/* <StarHover /> */}
+      <FileSystem />
     </>
   );
 }

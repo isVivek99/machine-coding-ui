@@ -6,6 +6,7 @@ const Index = () => {
   const timeRef = React.useRef(null);
 
   const start = () => {
+    if (timeRef.current) return;
     timeRef.current = setInterval(() => {
       setTime((prev) => prev + 1);
     }, 1000);
